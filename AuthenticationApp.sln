@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationApp", "AuthenticationApp\AuthenticationApp.csproj", "{48BBA98A-BE9F-4B7A-AC4C-9F6CE87AB1CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationApp.Core", "AuthenticationApp.Core\AuthenticationApp.Core.csproj", "{794B2DA1-2750-46A8-8F07-D2898A7A0C0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationApp.Infrastructure", "AuthenticationApp.Infrastructure\AuthenticationApp.Infrastructure.csproj", "{A5140D10-0327-4A62-ADBB-147BD41E349C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{48BBA98A-BE9F-4B7A-AC4C-9F6CE87AB1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48BBA98A-BE9F-4B7A-AC4C-9F6CE87AB1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48BBA98A-BE9F-4B7A-AC4C-9F6CE87AB1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{794B2DA1-2750-46A8-8F07-D2898A7A0C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794B2DA1-2750-46A8-8F07-D2898A7A0C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794B2DA1-2750-46A8-8F07-D2898A7A0C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794B2DA1-2750-46A8-8F07-D2898A7A0C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5140D10-0327-4A62-ADBB-147BD41E349C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5140D10-0327-4A62-ADBB-147BD41E349C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5140D10-0327-4A62-ADBB-147BD41E349C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5140D10-0327-4A62-ADBB-147BD41E349C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
